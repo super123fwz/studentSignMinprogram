@@ -1,0 +1,9 @@
+<!--pages/main/main.wxml-->
+<view class="main-view">
+  <view class="crose-list">
+    <view class="crose-content" wx:for="{{3}}" bindtap="sign">
+      <text class="crose-name">数学</text>
+      <text class="crose-teacher">王老师</text>
+    </view>
+  </view>
+</view>

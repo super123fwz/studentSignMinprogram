@@ -1,0 +1,27 @@
+/* pages/mine/mine.wxss */
+.main {
+  min-height: 100vh;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.views {
+  height: 120rpx;
+  width: 120rpx;
+  background-color: rgb(104, 104, 248);
+  font-size: 25rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2rpx solid rgb(206, 206, 206);
+  border-radius: 50% 50%;
+}
+
+.input {
+  background-color: rgb(185, 185, 190);
+  width: 200rpx;
+  height: 40rpx;
+}

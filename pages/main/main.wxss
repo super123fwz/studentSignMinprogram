@@ -1,0 +1,22 @@
+/* pages/main/main.wxss */
+.main-view {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.crose-list {
+  margin: 15rpx 10rpx;
+}
+
+.crose-content {
+  width: 100%;
+  /* height: 60rpx; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1rpx solid rgb(172, 172, 171);
+  padding: 15rpx 10rpx;
+  margin-top: 10rpx;
+}
